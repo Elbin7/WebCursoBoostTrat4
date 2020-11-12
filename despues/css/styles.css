@@ -1,0 +1,81 @@
+/*** Add your styles here **/
+
+:root {
+  --light: #ffffff;
+  --Light-x: #fdfdfd;
+  --Bk_Generic: #f5f5f5;
+  --Gray-Button: #ececea;
+  --BK-Footer: #E2E2E2;
+  --gray-line: #DEDEDE;
+  --dark: #1E212A;
+  --dark-x: #2C2D30;
+  --dark-xx: #5A626B;
+  --gray-x: #909194;
+  --primary-x: #21C4E1;
+  --primary: #0FA8EC;
+  --primaryDark:#0187ed;
+  --Green: #0db670;
+  
+  
+  
+}
+
+header.site-header{
+  background-color: #18c22c;
+  height:250px;
+  color:white;
+}
+header.site-header h1 {
+  font-family: 'Anton', sans-serif;
+  font-size:2rem;
+}
+header.site-header .row {
+  height:250px;
+}
+header.site-header .display-2 {
+  font-size: 1.5rem;
+  font-family: 'Dosis', sans-serif;
+  font-weight: 400;
+}
+@media only screen and (min-width:768px) {
+  header.site-header h1  {
+    font-size:4rem;
+  }
+  header.site-header .display-2 {
+    font-size: 2rem;
+  }
+}
+
+
+
+h2.lecture-title {
+  margin: 30px 0;
+  font-size:3rem;
+  text-align: center;
+  font-family: 'Dosis', sans-serif;
+  color: #C2185B;
+}
+
+article  {
+  padding-top:30px;
+} 
+
+header.entry-header {
+  margin-bottom: 30px;
+}
+header.entry-header h1 {
+  background-color: #C2185B;
+  display: inline-block;
+  padding:10px 20px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Anton', sans-serif;
+}
+
+.service {
+  padding: 150px 0;
+}
+
+.contact-info {
+  background-color: #0db670;
+}
